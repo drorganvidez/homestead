@@ -13,4 +13,4 @@ sites:
       to: /home/vagrant/laravel/public
 
 databases:
-    - evidentia
+    - homestead
