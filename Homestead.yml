@@ -1,0 +1,26 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 2
+provider: virtualbox
+
+folders:
+    - map: ../evidentia
+      to: /home/vagrant/laravel
+
+sites:
+    - map: evidentia.test
+      to: /home/vagrant/laravel/public
+
+databases:
+    - evidentia
+
+features:
+    # - mysql: true
+    - mariadb: false
+    - postgresql: false
+    - ohmyzsh: false
+    - webdriver: false
+
+services:
+    - "mysql"
