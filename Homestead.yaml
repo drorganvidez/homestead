@@ -14,13 +14,3 @@ sites:
 
 databases:
     - evidentia
-
-features:
-    # - mysql: true
-    - mariadb: false
-    - postgresql: false
-    - ohmyzsh: false
-    - webdriver: false
-
-services:
-    - "mysql"
