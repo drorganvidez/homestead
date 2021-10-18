@@ -5,12 +5,12 @@ cpus: 2
 provider: virtualbox
 
 folders:
-    - map: ../evidentia
-      to: /home/vagrant/laravel
+    - map: ../
+      to: /home/vagrant/evidentia
 
 sites:
     - map: evidentia.test
-      to: /home/vagrant/laravel/public
+      to: /home/vagrant/evidentia/public
 
 databases:
     - homestead
